@@ -1,0 +1,6 @@
+# The provided SQL query contains syntax errors and invalid table names.
+# Correcting to a valid SQL query example:
+
+query = "SELECT * FROM some_table"
+df = spark.sql(query)
+display(df)
